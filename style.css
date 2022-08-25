@@ -203,4 +203,7 @@ body {
         background-color: rgb(219, 149, 149);
         border-radius: 10px 0 0 10px;
     }
+     #masterSongName{
+        display: none;
+    }
 }
