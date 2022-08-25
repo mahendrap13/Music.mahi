@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music.mahi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" width="45" height="45" alt="" />
+        </div>
+        <h1>Heaven String Music player</h1>
+    </div>
+
+    <div class="nabvar">
+        <div class="container">
+            <div class="left-column">
+                <ul>
+                    <a href="index.html">
+                        <li> <img src="https://img.icons8.com/nolan/64/home-page.png" /> <p> HOME</p> </li>
+                    </a>
+                    <a href="songs.html">
+                        <li> <img src="https://img.icons8.com/nolan/64/photos-folder.png" /><p>SONGS</p> </li>
+                    </a>
+                    <a href="favrourite.html">
+                        <li> <img src="https://img.icons8.com/nolan/64/likes-folder.png" /> <p>FAVROURITE SONGS</p></li>
+                    </a>
+                    <a href="download.html">
+                        <li> <img src="https://img.icons8.com/nolan/64/downloads-folder.png" /> <p>DOWNLOAD</p></li>
+                    </a>
+                    <a href="login.html">
+                        <li> <img src="https://img.icons8.com/nolan/64/login-rounded-right.png" /><p> LOGIN</p></li>
+                    </a>
+                </ul>
+
+
+            </div>
+            <div class="right-column">
+                <h2 class="title">Play List</h2>
+                <div class="songs">
+                    <div class="song1">
+                        <img src="r_music1.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music2.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music3.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music4.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music5.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music6.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music3.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music2.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music5.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music6.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music1.jpg" alt="" />
+                    </div>
+                    <div class="song1">
+                        <img src="r_music4.jpg" alt="" />
+                    </div>
+                </div>
+                <h2 class="title">Trending Songs</h2>
+                <div class="songs">
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+            <div class="songInfo">
+                <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
