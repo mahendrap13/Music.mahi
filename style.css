@@ -174,13 +174,13 @@ body {
     }
     h1 {
         color: white;
-        margin-right: 20%;
+        margin-right: 10%;
         margin-top: 5px;
         font-size: 25px;
     }
     .songs {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
         grid-gap: 10px;
         margin: 20px 10px 0 10px;
         /* overflow: hidden; */
@@ -190,5 +190,17 @@ body {
     .left-column a li p {
         display: none;
  
+    }
+    .right-column {
+        width: 80%;
+        /* height: 80vh; */
+        background-color: #262626;
+        border-radius: 0 10px 10px 0;
+    }
+    .left-column {
+        width: 20%;
+        /* height: 80vh; */
+        background-color: rgb(219, 149, 149);
+        border-radius: 10px 0 0 10px;
     }
 }
