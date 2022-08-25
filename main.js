@@ -10,6 +10,12 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
+    { songName: "Jai Hanuman Gyan Gun Sagar" , filePath: "1.mp3" ,coverPath: "1.mp3"},
+    { songName: " Baari by Bilal Saeed" , filePath: "2.mp3" ,coverPath: "2i.jpg"},
+    { songName: " aashiq-hai-ye-chor r" , filePath: "3.mp3" ,coverPath: "3i.jpg"},
+    { songName: "Lahore - Guru Randhawa" , filePath: "4.mp3" ,coverPath: "4i.jpg"},
+    { songName: "haaye panjabi" , filePath: "6.mp3" ,coverPath: "6i.jpg"}
+
     {songName: "Warriyo - Mortals [NCS Release]", filePath: "1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Cielo - Huma-Huma", filePath: "2.mp3", coverPath: "covers/2.jpg"},
     {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "3.mp3", coverPath: "covers/3.jpg"},
