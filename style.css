@@ -115,7 +115,7 @@ body {
 .songInfo{
     position: absolute;
     left: 10%;
-    bottom: 43px;
+    bottom: 4px;
     font-family: 'Varela Round', sans-serif;
 }
 .songInfo img{
@@ -144,6 +144,7 @@ body {
 .icons {
     font-size: 15px;
     cursor: pointer;
+     position: relative;
 }
 
 
