@@ -160,6 +160,13 @@ body {
 @media only screen and (max-width: 800px) {
     .left-column a li p {
         display: none;
+        .songInfo{
+        position: absolute;
+        left: -30px;
+        bottom: 20px;
+/*         font-size: 10px; */
+        font-family: 'Varela Round', sans-serif;
+    }
  
     }
 }
@@ -204,7 +211,12 @@ body {
         background-color: rgb(219, 149, 149);
         border-radius: 10px 0 0 10px;
     }
-     #masterSongName{
-        display: none;
+    
+    .songInfo{
+        position: absolute;
+        left: -30px;
+        bottom: 20px;
+        font-size: 10px;
+        font-family: 'Varela Round', sans-serif;
     }
 }
